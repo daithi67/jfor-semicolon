@@ -1,0 +1,12 @@
+# hello_semicolons.jfor
+# Demonstrates ALGOL-style and semicolon-style FOR loops
+
+print "Counter FOR (ALGOL-style):"
+for i = 1 to 3 do
+    print "Hello " + i
+end
+
+print "Semicolon FOR (Johnson/C-style):"
+for (j = 0; j < 3; j = j + 1) do
+    print "Hello from semicolon loop " + j
+end
